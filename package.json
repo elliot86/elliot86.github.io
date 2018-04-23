@@ -1,0 +1,28 @@
+{
+  "name": "elliot86.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliot86/elliot86.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliot86/elliot86.github.io/issues"
+  },
+  "homepage": "https://github.com/elliot86/elliot86.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
