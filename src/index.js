@@ -1,12 +1,6 @@
-import _ from 'lodash';
-
-function component() {
-    const element = document.createElement('div');
-
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-    return element;
-}
-
-document.body.appendChild(component());
+import React from 'react';
+import './styles.css';
+const MyComponent = () => (
+    <h1>Hello from My Component</h1>
+);
+export default MyComponent;
